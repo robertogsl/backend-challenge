@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS jurishand;
+
+USE jurishand;
+
+CREATE TABLE artigos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(45) NOT NULL,
+    author VARCHAR(45) NOT NULL,
+    content VARCHAR(45) NOT NULL,
+    date DATE NOT NULL,
+    category VARCHAR(45) NOT NULL
+);
